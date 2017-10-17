@@ -1,0 +1,6 @@
+- open the project with git bash here
+- git status
+- git add .
+- git commit -m "Mesaj commit"
+- git push origin master
+- O sa ceara parola
