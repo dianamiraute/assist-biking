@@ -1,0 +1,184 @@
+ 
+
+/*------------------header-------------*/
+
+header{
+  /*overflow: hidden;*/ 
+  height: 50px;
+  background-color: #050c26;  
+ padding-top: 20px;
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+ 
+.logo{
+	background-image: url(../img/assist-biking-logo.png);
+	width: 198px;
+	height: 41px;
+	object-fit: contain; 
+	float: left;
+	overflow: hidden;
+
+}
+ 
+ .main-menu li{
+	float:left;   
+	 display: inline-block; 
+	 padding: 12px 13px;
+
+}
+
+.main-menu a{ 
+	text-decoration:none;
+	  width: 77px;
+  height: 13px;
+  font-family: Sansation;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.main-menu a:hover{
+	text-decoration: underline;
+}
+
+.layer-1{
+	background-image: url(../img/hero-img.png);
+	width: 100%;
+  height:800px; 
+   background-position:center;
+
+}
+
+.never-never {  
+    position: relative
+     
+      width: 1221px;
+  height: 125px; 
+  mix-blend-mode: color-dodge;
+  font-family: Sansation;
+  font-size: 117px;
+  font-weight: bold;
+  text-align: left;
+  color: rgba(255, 177, 120, 0.17);
+  text-transform: uppercase;
+}
+.never-never  .l1 {
+    margin: 0; 
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+     }
+
+.never-never  .l2 {
+    margin: 0; 
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+  width: 570px;
+  height: 55px;
+  font-family: Sansation;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+     }
+
+     .about-us { 
+  height: 590px;  
+  margin-left: 357px ;
+}
+
+  .slide{  
+  padding-top: 50px;
+  width: 121px;
+  height: 22px;
+  font-family: Sansation;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+  color: #1b1b1b;
+}
+
+.about-us-img{
+  background-image: url(../img/about-us-img.png);
+  width:100%;
+  height: 400px;
+  object-fit: contain;
+  margin-top: 50px; 
+  background-size: 700px auto;  
+  background-repeat: no-repeat;
+  position:relative;
+
+}
+.about-us-text{  
+   width: 130px;
+  height: 132px;
+  font-family: Sansation;
+  font-size: 22px;
+  text-align: left;
+  color: #000000;
+}
+.about-us-text1{ 
+  
+  font-family: Sansation;
+  font-size: 11px;
+  width: 220px;
+  height: 80px;
+  text-align: left;
+  color: #000000;
+}
+
+ .team {  
+     	 width:100%;
+  height: 300px;
+    background-color: #eef2fb; 
+}
+.team-text{
+  margin-left: 357px;
+  padding-top: 50px;
+  width: 121px;
+  height: 22px;
+  font-family: Sansation;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+  color: #1b1b1b;
+}
+
+ .gallery {  
+   width:100%;
+  height: 300px; 
+}
+.gallery-text{
+  margin-left: 357px;
+  padding-top: 50px;
+  width: 121px;
+  height: 22px;
+  font-family: Sansation;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+  color: #1b1b1b;
+}
+
+.container { 
+  	height: 300px;  
+    margin: auto;
+    padding: 10px;
+        margin-left: 357px;
+}
+.activity {
+    width: 25%;
+    height: 200px; 
+    float: left;  
+	border:1px solid;
+}
+.competitions {
+    margin-left: 25%;
+    height: 200px;  
+	border:1px solid;
+}
