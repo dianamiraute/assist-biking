@@ -1,62 +1,230 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tst</title>
-	<link rel="stylesheet" type="text/css" href="style/reset.css">
-		<link rel="stylesheet" type="text/css" href="style/base.css">
-</head>
-<body>
-	                        <!--  ////////////     Meniu   ///////////        -->
-	<header>
-		 	
-			<div class="logo"></div>
-			 
-			<nav class="main-menu">
-				<ul>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Our team</a></li>
-					<li><a href="#">Gallery</a></li>
-					<li><a href="#">Activity</a></li>
-					<li><a href="#">Competitions</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Statistics</a></li>
-				</ul>
-			</nav>
-	</header>
-	
-                        <!--  ////////////     Layer1    ///////////        -->
-	<div class="layer-1">
-		<div class="never-never">
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Assist Biking</title>
+		<link rel="stylesheet" type="text/css" href="style/reset.css">
+		<!-- <link rel="stylesheet" type="text/css" href="style/index.css">  -->
+		<link rel="stylesheet" type="text/css" href="style/index-min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+	</head>
+	<body>
+	<!--  ////////////     Meniu   ///////////        -->
+	<header> 
+		<div class="logo"></div> 
+		<nav class="main-menu">
+			<ul>
+				<li><a href="#about">About us</a></li>
+				<li><a href="#team">Our team</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#activity">Activity</a></li>
+				<li><a href="#competitions">Competitions</a></li>
+				<li><a href="#blog">Blog</a></li>
+				<li><a href="#statistics">Statistics</a></li>
+			</ul>
+		</nav>
+	</header> 
+
+	<!--  ////////////     Layer1    ///////////        -->
+	<div class="slider">
+		<div class="slider-container">
 			<div class="l1">never never</div>
 			<div class="l2">never give up</div>
 		</div> 
-	</div>
-                        <!--  ////////////     About us    ///////////        -->
-	<div class="about-us">
-		<div class="slide">About us</div>
-			<div class="about-us-img">
+	</div>   <div class="clear-both"></div>
+
+	<!--  ////////////     About us    ///////////        -->
+	<div class="about-us" id="about">
+		<div class="slide-title">About us</div>
+			<div class="about-us-img"> 
 				<div class="about-us-text">We are all about amazing experiences.</div>
 			</div>
 		<div class="about-us-text1">“Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine.”</div>
-	</div>
-                        <!--  ////////////     Team   ///////////        -->
-	<div class="team">
-		<div class="team-text">Our team</div>
-	</div>
+	</div> 
+	<div class="clear-both"></div>
 
-                        <!--  ////////////   Gallery    ///////////        -->
+	<!--  ////////////     Team   ///////////        -->
+	<div class="team" id="team">
+		<div class="slide-title">Our team</div>
+		<div class="team-slider"> 
+			<ul>
+				<li>
+					<div class="arrow-back"></div> 
+				</li>
+				<li>
+					<div class="person1"></div>
+					<h3>Andrei Barascu</h3>
+					<h5>2,401km</h5>
+				</li>
+				<li>
+					<div class="person2"></div>
+
+					<h3>Mihai Tenciu</h3>
+					<h5>902km</h5>
+				</li>
+				<li>
+					<div class="person3"></div>
+					<h3>Gabriel Tironeac</h3>
+					<h5>1,371 km</h5>
+				</li>
+				<li>
+					<div class="person4"></div>
+					<h3>Alexandru Macarescu</h3>
+					<h5>2,767 km</h5>
+				</li>
+				<li>
+					<div class="person5"> </div>
+					<h3>Andrei Traciu</h3>
+					<h5>1,347 km</h5>
+				</li>
+				<li>
+					<div class="arrow-next"></div> 
+				</li>
+			</ul>
+		</div> 
+	</div>
+	<div class="clear-both"></div>
+
+	<!--  ////////////   Gallery    ///////////        -->
+	<div class="slide-title" id="gallery">Gallery</div>
+		<div class="collage">
+			<a href="#">
+				<div class="collage-text">
+					<p>See more</p>
+				<img alt="" src="img/arrows.png" class="img-collage-text"></div>
+			</a>
+		</div> 
+	<div class="clear-both"></div>
+
+	<!--  ////////////   activity    ///////////        -->
+	<div class="container-ac" id="container-ac">  
+		<div class="activity" id="activity">
+			<div class="container-title" >Activity</div>
+
+			<div class="activity-cell">
+				<img alt="" class="activity-image" src="img/90.png"/>  
+				<div class="activity-text"><span class="txt-italic-bold">Andrei Traciu</span> reached <span class="txt-bold">800 km </span>today </div>
+			</div>	
+			<div class="activity-date">9/27/2017</div>
+			
+			<div class="activity-cell">
+				<img alt="" class="activity-image" src="img/93_2.png"/>  
+				<div class="activity-text"><span class="txt-italic-bold">Costi Placinta </span> entered a <span class="txt-bold">new personal record of 240km</span> </div>
+			</div>
+			<div class="activity-date">9/27/2017</div>
+
+			<div class="activity-cell">
+				<img alt="" class="activity-image" src="img/93_2.png"/>  
+				<div class="activity-text"><span class="txt-italic-bold">Costi Placinta</span> commented on  <span class="txt-bold"> Testing new equipment</span> </div>
+			</div>	
+			<div class="activity-date">9/27/2017</div>
+
+			<div class="activity-cell">
+				<img alt="" class="activity-image" src="img/66.png"/>  
+				<div class="activity-text"><span class="txt-italic-bold">Mihai Tenciu</span> joined <span class="txt-bold">Assist Biking Club</span></div>
+			</div>
+			<div class="activity-date">9/27/2017</div>
+		</div>
+
+	<!--  ////////////    competitions  ///////////        -->
+		<div class="competitions" id="competitions"> 
+			<div class="container-title"  >Competitions</div>
+
+			<div class="competitions-cell">
+				<img alt="" class="competitions-image" src="img/event-logo_4.png"/>  <div class="Rounded"><p>Been there!</p></div>
+				<div class="competitions-text">
+					<p>Bucovina MTB maraton </p>
+					<div class="competitions-date">3 iunie 2017</div>
+				</div>	
+			</div>	
+			<div class="competitions-cell">
+				<img alt="" class="competitions-image" src="img/event-logo.png"/>  <div class="Rounded"><p>Been there!</p></div>
+				<div class="competitions-text">
+					<p>Marathon MTB Bicaz </p>
+					<div class="competitions-date">13 august 2017</div>
+				</div>	
+			</div>	
+			<div class="competitions-cell">
+				<img alt="" class="competitions-image" src="img/event-logo_2.png"/>  
+				<div class="competitions-text">
+					<p>Maratonul Dunarii </p>
+					<div class="competitions-date">20 august 2017 </div>
+				</div>	
+			</div>	
+			<div class="competitions-cell">
+				<img alt="" class="competitions-image" src="img/event-logo_3.png"/>  
+				<div class="competitions-text">
+					<p>Haiduci si Domnite </p>
+					<div class="competitions-date">20 septembrie 2017</div>
+				</div>	
+			</div>	
+		</div>
+	</div> 
+	<div class="clear-both"></div>
  
-	<div class="gallery">
-		<div class="gallery-text">Gallery</div>
+	<!--  ////////////   Blog    ///////////        -->
+	<div class="slide-title" id="blog">Blog</div>
+		<div class="container-blog">
+		<div class="blog-banner">
+			<img alt="" class="blog-image" src="img/bike_1.jpg"> 
+			<div class="blog-border">by Adrian Galatanu</div> 
+			<div class="blog-desc">ASSIST Biking Club event in the Rarau mountains</div>
+		</div> 
+		<div class="blog-banner">
+			<img alt="" class="blog-image" src="img/bike_2.jpg"> 
+			<div class="blog-border">by Diana Alina Ceornei</div>  
+			<div class="blog-desc">ASSIST Biking Club - Rarau Radical Race</div>
+		</div>  
+		<div class="blog-banner">
+			<img alt="" class="blog-image" src="img/bike_3.jpg"> 
+			<div class="blog-border">by Adrian Galatanu</div>  
+			<div class="blog-desc">ASSIST Biking Club event in the Rarau mountains</div>
+		</div>
 	</div>
+	<div class="clear-both"></div> 
 
+	<!--  ////////////   Statistics    ///////////        -->
+	<div class="slide-title" id="statistics">Statistics</div>
+		<div class="container">
+			<div class="row text-center"  >
+				<div class="container-statistics">
+					<div class="statistics-member"><span class="statistics-nr">34 </span><br>members</div>
+					<div class="statistics-distance"><span class="statistics-nr">1100</span>  <span class="statistics-label">km</span><br> total distance</div>
+					<div class="statistics-medal"><span class="statistics-nr">7 </span><br>medals won</div>
+			</div>
+		</div> 
+	</div>
+	<div class="clear-both"></div>
  
-
-<section class="container">
-    <div class="activity">Activity</div>
-    <div class="competitions">Competitions</div>
-</section>
-
+<!--  ////////////   Footer    ///////////        -->
+	<div class="footer"> 
+		<div class="row text-center">
+			<div class="footer-meniu">
+				<ul>
+					<li><a href="#about">About us</a></li>
+					<li><a href="#team">Our team</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#activity">Activity</a></li>
+					<li><a href="#competitions">Competitions</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#statistics">Statistics</a></li>
+				</ul> 
+			</div>
+			<div class="footer-social-media"><div class="title-social-media"> Social media</div>
+				<div class="container-social-media">
+					<a href="#"><img alt="" src="img/facebook-active.png" class="img-social-media"></a>
+					<a href="#"><img alt="" src="img/youtube-active.png" class="img-social-media"></a>
+					<a href="#"><img alt="" src="img/twitter-active.png" class="img-social-media"></a>
+					<a href="#"><img alt="" src="img/instagram-active.png" class="img-social-media"></a>
+				</div>
+				<div class="button-join-us"><a href="#">Join our team</a></div>
+			</div>
+			<div class="footer-contact">
+				<p>Contact</p><br>
+				<p> Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p><br>
+				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p> 
+			</div> 
+		</div>
+	</div> 
 
 	</body>
-</html>
+	</html>
